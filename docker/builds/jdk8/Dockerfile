@@ -18,7 +18,7 @@ ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 COPY bin/entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
-WORKDIR /var/www/java-beginners-guide
+WORKDIR /var/www/java8-se-oca
 
 ENTRYPOINT ["entrypoint.sh"]
 
