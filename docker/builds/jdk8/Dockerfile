@@ -22,4 +22,4 @@ WORKDIR /var/www/java8-se-oca
 
 ENTRYPOINT ["entrypoint.sh"]
 
-CMD ["mvn", "-version"]
+CMD ["tail", "-f", "/dev/null"]
