@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - target:/var/www/java8-se-oca
-      - jvm-sources:/usr/lib/jvm
+      - jvm-sources:/usr/local/openjdk-8
       - maven-repository:/root/.m2
     ports:
       - 5005:5005
