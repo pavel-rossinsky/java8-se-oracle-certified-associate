@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  jdk:
+  jdk8:
     build:
       context: ./docker/builds/jdk8
       dockerfile: Dockerfile
