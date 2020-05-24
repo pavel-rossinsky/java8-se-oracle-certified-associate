@@ -6,7 +6,7 @@ services:
       context: ./docker/builds/jdk8
       dockerfile: Dockerfile
     volumes:
-      - target:/var/www/java8-se-oca
+      - target:/var/www/java8-se-oracle-certified-associate
       - jvm-sources:/usr/local/openjdk-8
       - maven-repository:/root/.m2
     ports:
