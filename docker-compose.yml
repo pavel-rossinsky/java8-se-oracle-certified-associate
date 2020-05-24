@@ -30,5 +30,5 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: ${CODEBASE}/.m2
+      device: ${CODEBASE}/m2
       o: bind
